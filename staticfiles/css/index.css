@@ -1,0 +1,185 @@
+@media only screen and (max-width:400px){
+table{
+	font-size: 1.2em;
+	font-family: sitka small;
+	color:#179611;
+	text-align: center;
+}
+
+strong{
+	font-style: italic;
+	font-family: Arial Black;
+	 color:#179611;
+}
+    
+ul li{
+list-style-type: none;
+}
+
+
+nav{
+}
+img{
+
+	width: 300px;
+	height: 450px;
+	border-radius: 375px;
+	padding: 20Px;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+h5{
+	text-align: center;
+	color: black;
+	font-size: 0.9em;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+div{
+	font-style:  oblique; 
+	font-family: cambria;
+}
+h6{
+	text-align: center;
+	font-size: 1.4em; 
+}
+p{
+	background-color: #179611 ;
+	text-align: center;
+	font-size: 1.5em;
+	font-style: cambria;
+	font-family: Arial Black;
+}
+	
+body{
+	height: 100%; 
+	width: 100%;
+
+}
+	font-family: italic;
+}
+
+.entete{
+	background-color:#179611 ;
+	height: 150px;
+	text-align: center;
+	border-style :dotted;
+	font-family: Arial Black;
+	color:#179611;
+	
+}
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+
+	float: center;
+	margin-top: 11px;
+	color:#179611;
+	max-height :20px;
+	
+}
+.navbar ul li a{
+	list-style-type: none;
+	float: center;
+	font-family: Arial Black;
+	color:#179611;
+	text-align: center;
+}
+}
+.navbar ul li{
+	text-align: center;
+
+}
+.navbar  a{
+	text-decoration: none;
+  	margin-right: 25px;
+	font-size: 30px;
+	float: center;
+	color:#179611;
+}
+.entete{
+	background-color:#256369 ;
+	height: 6px;
+	border-width:60px;
+	border-style:outset;
+	color:#179611; 
+
+
+}
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+
+	float: center;
+	margin-top: 11px;
+	max-height :12px;
+	text-align: center;
+}
+.navbar ul li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+}
+.navbar  a{
+	text-decoration: red;
+  	margin-right: 25px;
+	color: bisque;
+	font-size: 20px;
+	text-align: center;
+}
+.pied{
+	background-color: #156278;
+	padding: 8px;
+}
+.pied p{
+	text-align: center;
+	color: red;
+	padding: 1px;
+	margin-top: 10px;  
+}
+	
+.corps{
+	height: 60px
+	width:100px;
+	border-width:16px;
+	border-style:outset;
+	text-align: center;
+}
+h3{
+	color: gray;
+	text-align: center;
+	color: red;
+}
+hr{
+	width: 100%; 
+	font-family: Arial Black;
+	text-decoration: red;
+}
+} 
+h4{
+	text-align: center;
+	color: red;
+
+}
+.page{
+	text-align: center;
+	color: #256369;
+}
+
+
+	.navbar a{
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	}
+
+}
+

@@ -1,0 +1,24 @@
+@media only screen and (max-width:400px){
+	.navbar a{
+		font-size: 10px;
+		color: bisque;
+	}
+	.entete{
+		background-color:  #156278;
+	}
+	h6{
+		font-size: 1.2em;
+	}
+
+	img{
+		width: 30%;
+		height: 30%;
+		margin-right:50%;
+	}
+	.pied{
+	font-size: 0.6em;
+}
+.pied a{
+	margin-right: 10%;
+}
+}
