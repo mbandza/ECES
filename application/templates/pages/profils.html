@@ -1,0 +1,14 @@
+{% extends 'mise en page/base.html'%}
+
+{% block content %}
+
+<img src="{{object.photo.url}}"><br/>
+Matricule:{{object.matricule}}<br/>
+Nom:{{object.nom}}<br/>
+Prenom:{{object.prenom}}<br/>
+Adresse:{{object.adresse}}<br/>
+Option:{{object.option}}<br/>
+Niveau:{{object.niveau}}<br/>
+Description:{{object.description}}
+
+{%endblock%}

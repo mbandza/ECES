@@ -1,0 +1,13 @@
+{% extends 'mise en page/base.html'%}
+{% block content %}
+<h3>liste des étudiants d'ECES</h3><br>
+<hr>
+<h4 style="color:gray">Nombre des étudiants enregistrés({{etudiant|length}})</h4>
+
+<ul style="font-family: impact: ">
+	{%for etudiant in etudiant%}
+	<li><a href="{% url 'profils' etudiant.id %}">{{etudiant.matricule}}-{{etudiant.nom|upper}}</a></li>
+	{% endfor %}
+</ul>
+
+{%endblock%}

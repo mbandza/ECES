@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+.conteneur{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social{
+	position: relative;
+	background-color: rgba(0,0,0,0.2);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden; 
+}
+.social img{
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+}
+.fond_twi{
+	top: -40px; 	
+	z-index: 1;
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	transition: 0.5s;
+}
+.fond_twi{
+	background-color: #55acee;
+}
+.fond_face{
+	background-color: #3b5999;
+}
+.social:hover .fond_twi{
+	top: 0;
+}
+.social:hover .fond_face{
+	top: 0;
+}
+	</style>
+</head>
+<body>
+<footer>
+	<div class="conteneur">
+	<a href="stanygivane.mbandza@facebook.com" class="social"><div class="fond-twi"></div><img src="medias/you.png" alt="social"></a>
+	<a href="stanygivane.mbandza@facebook.com" class="social"><div class="fond-face"></div><img src="medias/face.png" alt="social"><div class="fond-twi"></div></a>
+	
+</div>
+	<p style="font-size: 0.9em">&copy tous droits réservés<br/> 
+	<a href="http://www.eces-ecole.org" style="font-size: 1.1em;"> ECES</a></p>
+</footer>
+</body>
+</html>
