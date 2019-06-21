@@ -1,7 +1,7 @@
 {% extends 'mise en page/base.html'%}
 
 {% block content %}
-
+<div class="profi">
 <img src="{{object.photo.url}}"><br/>
 Matricule:{{object.matricule}}<br/>
 Nom:{{object.nom}}<br/>
@@ -10,5 +10,6 @@ Adresse:{{object.adresse}}<br/>
 Option:{{object.option}}<br/>
 Niveau:{{object.niveau}}<br/>
 Description:{{object.description}}
+</div>
 
 {%endblock%}
